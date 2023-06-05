@@ -1,0 +1,21 @@
+.auth-form-box {
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 12rem;
+  background-color: #d8c3a5;
+  padding: 2.1rem;
+  border-radius: 8px;
+}
+
+.auth-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form input {
+  padding: 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 0 0px 1px #8e8d8a;
+  outline: none;
+}
