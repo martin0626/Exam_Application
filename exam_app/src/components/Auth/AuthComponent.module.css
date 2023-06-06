@@ -1,0 +1,37 @@
+.choose-btns {
+  width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.choose-btns a {
+  color: #333333;
+  padding: 1rem;
+  background-color: #c8d8e4;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.active-btn {
+  background-color: #2b6777 !important;
+  color: #ffffff !important;
+}
+
+.auth a:first-of-type {
+  border-radius: 8px 0 0 8px;
+}
+
+.auth a:nth-of-type(2) {
+  border-radius: 0 8px 8px 0;
+}
+
+.choose-btns a:hover {
+  cursor: pointer;
+  background-color: #2b6777;
+  color: #ffffff;
+}

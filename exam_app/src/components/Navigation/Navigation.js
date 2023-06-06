@@ -24,7 +24,7 @@ const NavigationElement = () => {
       </div>
       <div className={classes["nav-element"]}>
         <NavLink
-          to="/auth"
+          to="/auth?action=signUp"
           className={({ isActive }) => (isActive ? classes.active : "")}
           end
         >
