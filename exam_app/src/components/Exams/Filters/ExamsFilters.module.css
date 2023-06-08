@@ -1,0 +1,22 @@
+.btn-group {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.filter-btn {
+  background-color: #e8e8e8;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #464646;
+  transition: all 0.3s;
+  border: none;
+}
+
+.filter-btn:hover {
+  cursor: pointer;
+  background-color: #2b6777;
+  color: #ffffff;
+}

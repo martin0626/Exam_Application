@@ -1,0 +1,33 @@
+.filter-section {
+  border-bottom: 1px solid #33333328;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+
+.fl-title {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 0.6rem;
+  color: #545454;
+  letter-spacing: 1px;
+}
+
+.fl-all {
+  margin-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.fl-single {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.fl-checkbox[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}

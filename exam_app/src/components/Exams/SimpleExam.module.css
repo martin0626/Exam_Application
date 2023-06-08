@@ -1,0 +1,46 @@
+.ex-element {
+  border: 1px solid #33333336;
+  border-radius: 8px;
+  padding: 1.2rem;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+}
+
+.ex-title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.ex-description {
+  color: #545454;
+  display: block;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.ex-description,
+.ex-conditions {
+  font-size: 0.8rem;
+  margin: 0.2rem;
+}
+
+.ex-btn a {
+  background-color: #e8e8e8;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #464646;
+  transition: all 0.3s;
+}
+
+.ex-btn a:hover {
+  cursor: pointer;
+  background-color: #3b945e;
+  color: #ffffff;
+}
