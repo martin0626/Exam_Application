@@ -1,7 +1,8 @@
 import classes from "./HomeComponent.module.css";
+import HomeHeader from "./HomeHeaderComponent";
 
 const HomeComponent = () => {
-  return <h1>Home</h1>;
+  return <HomeHeader />;
 };
 
 export default HomeComponent;

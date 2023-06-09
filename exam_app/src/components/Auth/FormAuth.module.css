@@ -68,3 +68,36 @@
   background-color: #c8d8e4;
   color: #333;
 }
+
+.radio-choice {
+  display: flex;
+  gap: 2.2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.radio-choice input[type="radio"] {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.input-radio p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.err-msg {
+  color: #d14d4d;
+  margin: 0;
+}
+
+.err-msg::before {
+  content: "*";
+  font-size: 1.2rem;
+}
+
+.btn-disabled {
+  background-color: #8e8d8a !important;
+  cursor: not-allowed !important;
+}
